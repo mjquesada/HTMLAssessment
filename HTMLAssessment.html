@@ -63,13 +63,14 @@
   <li><a href="https://www.nba.com/warriors/">Golden State Warriors</a></li>
     <ul>
       <li>All Stars</li>
-    <ul>
+    <ol>
         <li>Kevin Durant</li>
-        <li>Stephen Curry</li>
+        <li>Stephen Curry</<li>
         <li>Klay Thompson</li>
-    </ul>
+    </ol>
   </ul>
 </ul>
+
 
 <br>
 
@@ -78,11 +79,11 @@
   <li><a href="https://www.nba.com/lakers/">Los Angeles Lakers</a></li>
     <ul>
       <li>All Stars</li>
-    <ul>
+    <ol>
         <li>Lebron James</li>
         <li>Lonzo Ball</li>
         <li>Brandon Ingram</li>
-    </ul>
+    </ol>
   </ul>
 </ul>
 
@@ -95,12 +96,26 @@
     <label for="name">Last:</label>
     <input type="text" id="lname" name="user_name">
   </div>
-  <div>
-    <label for="mail">E-mail:</label>
-    <input type="email" id="mail" name="user_mail">
-  </div>
-  <div>
-    <label for="msg">Message:</label>
-    <textarea id="msg" name="user_message"></textarea>
-  </div>
+
+<br>
+
+  <select name="team">
+    <option value="warriors">Warriors</option>
+    <option value="lakers">Lakers</option>
+  </select>
+
+
+  <p>I have: <br>
+  <input type="checkbox" name="value" value="attended">Attended<br>
+  <input type="checkbox" name="value" value="played">Played<br>
+  <input type="checkbox" name="value" value="car">Coached<br>
+  <input type="checkbox" name="value" value="bet on">Bet on<br>
+  on this sport</p>
+
+  <p>For this sport i prefer: <br>
+  <input type="checkbox" name="value" value="attended">Amateur<br>
+  <input type="checkbox" name="value" value="played">College<br>
+  <input type="checkbox" name="value" value="car">Professional<br>
+  <input type="submit" value="Submit">
+  </p>
 </form>
