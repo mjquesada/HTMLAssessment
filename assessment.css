@@ -1,0 +1,36 @@
+body{
+  background-color: lightgrey;
+}
+
+h1, h2, h3, h4, h5{
+  color: teal;
+  font: sans-serif;
+}
+
+.caption{
+  border-style: dashed;
+  border-width: thick;
+  border-color: darkgrey;
+  padding: 10px;
+  font-weight: bold;
+}
+
+#scoreBoard{
+  font-weight: bold;
+  border-style: groove;
+  border-width: thick;
+  padding: 20px;
+  border-color: black;
+}
+
+/* ul li ul li{
+  color: yellow;
+} */
+
+#teamRoster ul{
+  list-style: square;
+}
+
+.hyperLink:hover{
+  background-color: yellow;
+}
